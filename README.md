@@ -7,6 +7,7 @@ recruitmentsdb.sql: Script to create the database with all the data included.
 recruitmentsdb_schema.sql: Script to create the database with only the schema.  
 
 Useful commands using PostgresSQL CLI tools:  
+Browse to the Path that has the tools (pg_dump, psql).  
   
 Export the schema of a database  
 pg_dump -W -F p --schema-only -U username  -d dbname -h host > Path/filename.sql

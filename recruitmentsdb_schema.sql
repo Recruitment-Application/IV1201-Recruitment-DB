@@ -63,7 +63,7 @@ ALTER SEQUENCE public.applicant_availability_id_seq OWNED BY public.applicant_av
 
 CREATE TABLE public.application (
     id integer NOT NULL,
-    years_of_experience numeric(3,2) NOT NULL,
+    years_of_experience double precision NOT NULL,
     competence_id integer NOT NULL,
     person_id integer NOT NULL
 );
