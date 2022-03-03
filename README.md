@@ -3,8 +3,8 @@ Description:
 The SQL scripts to create the database for the Recruitment application. The database was created with PostgreSQL.
 
 SQL files:  
-recruitmentsdb.sql: Script to create the database with all the data included.
-recruitmentsdb_schema.sql: Script to create the database with only the schema.
+recruitmentsdb.sql: Script to create the database with all the data included.  
+recruitmentsdb_schema.sql: Script to create the database with only the schema.  
 
 Useful commands using PostgresSQL CLI tools:  
   
